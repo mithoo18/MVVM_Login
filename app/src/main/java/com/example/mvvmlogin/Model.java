@@ -4,10 +4,8 @@ import androidx.annotation.Nullable;
 
 public class Model
 {
-    @Nullable
-String email,password;
-
-
+        @Nullable
+        String email,password;
         public Model(String email, String password){
             this.email = email;
             this.password = password;

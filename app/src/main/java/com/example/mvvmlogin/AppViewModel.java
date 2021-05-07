@@ -11,7 +11,6 @@ import java.util.regex.Pattern;
 public class AppViewModel extends BaseObservable {
 
 private Model model;
-
 private String sucessMessage ="Login Successful";
 private String errorMessage ="Email or Password Not Valid";
 
@@ -23,7 +22,7 @@ private String toastMessage = null;
         return toastMessage;
     }
 
-    public void setToastMessage(String toastMessage) {
+    private void setToastMessage(String toastMessage) {
         this.toastMessage = toastMessage;
         notifyPropertyChanged(BR.toastMessage);
     }
@@ -33,7 +32,6 @@ private String toastMessage = null;
         return model.getEmail();
     }
 
-    @Bindable
     public void setUserEmail(String email){
         model.setEmail(email);
         notifyPropertyChanged(BR.userEmail);
@@ -42,7 +40,6 @@ private String toastMessage = null;
     public String getUserPassword(){
         return model.getPassword();
     }
-    @Bindable
     public void setUserPassword(String password){
         model.setPassword(password);
         notifyPropertyChanged(BR.userPassword);
