@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         activityMainBinding.setViewModel(new AppViewModel());
         activityMainBinding.executePendingBindings();
-//        setContentView(R.layout.activity_main);
     }
     @BindingAdapter({"toastMessage"})
-    public static void  runme(View view, String message){
+    public static void  runMe(View view, String message){
     if(message!=null)
         Toast.makeText(view.getContext(),message, Toast.LENGTH_SHORT).show();
     }
