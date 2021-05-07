@@ -1,5 +1,4 @@
-# MVVM_Login
-### News Application
+### MVVM_Login Application
 
 ### Getting Started 🚀
 
@@ -8,7 +7,7 @@
 $ git clone https://github.com/mithoo18/MVVM_Login
 
 # Go into the repository
-$ cd MitsNews
+$ cd MVVM_Login
 
 # Remove current origin repository
 $ git remote remove origin
@@ -24,9 +23,13 @@ $ git remote remove origin
 
 ### How it looks 
 
-| Login Page                                                                                                                        | Login Page Toast                                                                                                                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/mithoo18/MVVM_Login/blob/master/gitimg/2.jpg" style="zoom:25%;" /> | <img src="https://github.com/mithoo18/MVVM_Login/blob/master/gitimg/3.jpg" style="zoom:25%;" /> 
+<table>
+<tr>
+  <td><img align="left" src="https://github.com/mithoo18/MVVM_Login/blob/master/gitimg/1.jpg" alt="Main Screen" /></td>
+
+<td><img align="right" src="https://github.com/mithoo18/MVVM_Login/blob/master/gitimg/2.jpg" alt="Logo" /></td>
+</tr>
+</table>
+
 
 #### Developed with ❤ by @Devanshu || mithoo18.
-
